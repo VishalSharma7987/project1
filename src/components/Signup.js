@@ -35,7 +35,7 @@ export default function Signup() {
     }
   };
 
-  // common style for floating-label-like border label
+ 
   const inputWrapper = {
     position: "relative",
     marginBottom: "24px",
@@ -57,7 +57,7 @@ export default function Signup() {
        className="d-flex justify-content-center align-items-center bg-light h-100vh"
       style={{ backgroundColor: "#f9f9fb" }}
     >
-      {/* White card wrapper */}
+    
       <div
         className="bg-white w-100 shadow-sm "
         style={{
@@ -69,7 +69,7 @@ export default function Signup() {
         <h5 className="mb-4 fw-bold">Create your <br/> PopX account</h5>
        
         <Form onSubmit={handleSubmit}>
-          {/* Full Name */}
+         
           <div style={inputWrapper}>
             <Form.Label style={labelStyle}>Full Name *</Form.Label>
             <Form.Control
@@ -82,7 +82,7 @@ export default function Signup() {
             <Form.Control.Feedback type="invalid">{errors.name}</Form.Control.Feedback>
           </div>
 
-          {/* Phone */}
+       
           <div style={inputWrapper}>
             <Form.Label style={labelStyle}>Phone number *</Form.Label>
             <Form.Control
@@ -95,7 +95,7 @@ export default function Signup() {
             <Form.Control.Feedback type="invalid">{errors.phone}</Form.Control.Feedback>
           </div>
 
-          {/* Email */}
+        
           <div style={inputWrapper}>
             <Form.Label style={labelStyle}>Email address *</Form.Label>
             <Form.Control
@@ -108,7 +108,7 @@ export default function Signup() {
             <Form.Control.Feedback type="invalid">{errors.email}</Form.Control.Feedback>
           </div>
 
-          {/* Password */}
+         
           <div style={inputWrapper}>
             <Form.Label style={labelStyle}>Password *</Form.Label>
             <Form.Control
@@ -121,7 +121,7 @@ export default function Signup() {
             <Form.Control.Feedback type="invalid">{errors.password}</Form.Control.Feedback>
           </div>
 
-          {/* Company */}
+         
           <div style={inputWrapper}>
             <Form.Label style={labelStyle}>Company Name</Form.Label>
             <Form.Control
@@ -132,7 +132,7 @@ export default function Signup() {
             />
           </div>
 
-          {/* Agency */}
+        
           <div style={{ marginBottom: "24px" }}>
             <Form.Label >Are you an Agency?</Form.Label>
             <div style={{ paddingTop: "10px" }}>
@@ -153,7 +153,7 @@ export default function Signup() {
             </div>
           </div>
 
-          {/* Submit */}
+          
           <Button
             type="submit"
             className="w-100"
