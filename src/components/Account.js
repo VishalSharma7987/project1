@@ -8,7 +8,7 @@ export default function Account() {
     <div style={{ height: "100vh" }}>
       <h5 className="mb-3">Account Settings</h5>
 
-      {/* Profile wrapper */}
+   
       <div className="d-flex align-items-center mb-2">
         <div style={{ position: "relative", display: "inline-block" }}>
           <img
@@ -18,7 +18,7 @@ export default function Account() {
             width="80"
             height="80"
           />
-          {/* Camera icon */}
+    
           <div
             style={{
               position: "absolute",
