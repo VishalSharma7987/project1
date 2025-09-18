@@ -10,10 +10,10 @@ export default function Welcome() {
       className="d-flex flex-column justify-content-between align-items-center vh-100"
       style={{ backgroundColor: "#f9f9fb" }}
     >
-      {/* Empty space (top area) */}
+    
       <div></div>
 
-      {/* Bottom content */}
+     
       <div className="w-100 px-3 pb-4 ">
         <h4 className="mb-2">Welcome to PopX</h4>
         <p className="text-muted mb-4">
